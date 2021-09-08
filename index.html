@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>ADHITH PRIYAKUMAR PORTFOLIO</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Contact Me</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src="https://cdn1.vectorstock.com/i/1000x1000/51/05/male-profile-avatar-with-brown-hair-vector-12055105.jpg"/>
+        <div class='herosectionDetails'>
+          <h1><u>ADHITH PRIYAKUMAR N V</u></h1>
+          <h3><i>FINAL YEAR BSc COMPUTER SCIENCE</i></h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1><u>ABOUT ME</u></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac ipsum vel arcu tempor posuere. Donec libero sem, rhoncus ut laoreet id, lobortis quis diam. Vestibulum accumsan sollicitudin metus, vel fringilla nulla pellentesque et. Curabitur imperdiet nunc et varius varius. Etiam tincidunt erat vel ante viverra finibus non nec tortor. Vestibulum arcu eros, condimentum sed nisi non, elementum dictum erat. Pellentesque augue augue, aliquam at fermentum commodo, aliquam in arcu.
+
+Nullam quam erat, hendrerit sed porta in, sagittis at odio. Fusce hendrerit maximus dui a ornare. Fusce laoreet felis quis sapien dictum, quis vestibulum tellus porta. Nam ac ipsum enim. Etiam fermentum enim ac lacus feugiat, at consequat libero luctus. Pellentesque luctus malesuada erat a consequat. Nulla a tortor tortor. Nulla facilisi. Pellentesque euismod erat at purus commodo, at interdum justo pharetra. Proin imperdiet urna non dolor porttitor elementum. Maecenas sed ipsum eu diam interdum gravida vel sit amet ligula. Proin mauris lorem, dignissim non velit sed, rhoncus lobortis nulla. Pellentesque nibh arcu, porta at ultrices at, vehicula et arcu. Phasellus vel nunc eros.
+
+Aliquam rhoncus ligula nec justo semper maximus. Aliquam egestas vitae quam eget consectetur. Nulla fermentum molestie arcu vel suscipit. Mauris dignissim elementum tellus et tristique. In finibus eget nulla auctor fringilla. Suspendisse potenti. Nullam pellentesque dolor urna, interdum porttitor metus commodo quis. Aenean ornare facilisis ipsum a rutrum. Aenean non quam arcu. Integer aliquet diam at porta varius.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'><u>Skills</u></h1>
+          <img title='HTML' src='https://www.svgrepo.com/show/314189/html5.svg'>
+          <img title='CSS' src='https://www.svgrepo.com/show/104795/css.svg'>
+          <img title='Javascript' src='https://www.svgrepo.com/show/306259/javascript.svg'>
+          <img title='Python' src='https://www.svgrepo.com/show/306618/python.svg'>
+          <img title='C++' src='https://www.svgrepo.com/show/10782/cpp-file-format-symbol.svg'>
+          <img title='Php' src='https://www.svgrepo.com/show/240318/php.svg'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'><u>Projects</u></h1>
+          <div class='projectContainer'>
+            <img src='https://www.svgrepo.com/show/135847/task.svg'/>
+            <div class='projectDescription'>
+              <h4>Project 1</h4>
+              <p>My first project</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='https://www.svgrepo.com/show/135847/task.svg'/>
+            <div class='projectDescription'>
+              <h4>Project 2</h4>
+              <p>My second project</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1><u>CONTACT ME</u></h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='mobno'>Mobile No.</label><br/>
+          <input type='text' id='mobno' placeholder='mobno'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
